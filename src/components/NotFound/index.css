@@ -1,0 +1,41 @@
+.not-found-img {
+  height: 300px;
+  margin-top: 10%;
+}
+
+.notFound-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notFound-dark-theme {
+  background-color: #000000;
+  height: 100vh;
+}
+
+.notFound-light-theme {
+  background-color: #ffffff;
+  height: 100vh;
+}
+
+.lost-dark-theme {
+  color: #dcdcdc;
+  font-family: 'Roboto';
+}
+
+.lost-light-theme {
+  font-family: 'Roboto';
+  color: #334155;
+}
+
+.notFound-dark-theme {
+  font-family: 'Roboto';
+  color: #64748b;
+}
+
+.notFound-light-theme {
+  font-family: 'Roboto';
+  color: #333333;
+}

@@ -1,0 +1,65 @@
+.navbar {
+  height: 50px;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-routes-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 170px;
+  list-style-type: none;
+}
+
+.nav-route-container {
+  font-family: 'Roboto';
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.theme-logo {
+  height: 60px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.navbar-dark-bg {
+  background-color: #333333;
+  height: 62px;
+  background-size: cover;
+  border: none;
+}
+
+.navbar-light-bg {
+  background-color: #ffffff;
+  height: 62px;
+  border: 2px solid #dcdcdc;
+}
+
+.navbar-dark-text {
+  font-family: 'Roboto';
+  color: #f8fafc;
+}
+
+.navbar-light-text {
+  font-family: 'Roboto';
+  color: #000000;
+}
+
+.navbarTextTheme {
+  font-family: 'Roboto';
+  list-style-type: none;
+}
+
+.theme-button {
+  border: none;
+  background-color: transparent;
+}
